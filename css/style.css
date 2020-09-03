@@ -1,0 +1,144 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer{
+      padding: 25px;
+    }
+    /* color fill*/
+    .f{
+      color:white;
+    }
+    h3{
+      color:white;
+    }
+    /* color fill end*/
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:50px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+   /* Add a Room Info and Color Fill*/
+  #red{
+	  background-color:#337ab7;
+
+  }
+  /*color Fill*/
+  #red hr{/* Add a Room Info and Color Fill*/
+  width:300px;
+  margin:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  height:5px;
+  background-color:#f0f0f0;
+  border-radius:20px;
+}
+/*color End Fill*/
+  .text-justify{
+    color:black;
+  }
+h5{
+  color:white;
+  background-color:#6d6e6a;
+  height:100px;
+  width:100%;
+}
+/*  Room Info Add a Image and Hover Fill*/
+#img1{
+  width:100%;
+  height:190px;
+}
+#img1:hover{
+  box-shadow:7px 7px 5px #ffffff;
+ }
+.hov a:hover{
+  color:#000408;
+}
+/*  Room Info Add a Image and Hover End Fill*/
+
+/*Login Start*/
+
+#primary{ 
+    background-color:#1abc9c;
+    color:black;
+}
+.forget a{
+  text-decoration:none;
+  color:#000408;
+}
+.forget a:hover{
+  color:white;
+}
+.forget{
+  /*margin-top:5px;*/
+  padding-top:10px;
+}
+/*Login Close*/
+h1{
+  font-family:font-family: 'Lobster', cursive;
+  color:#ffffff;
+}
+#top{
+  margin:0px;
+}
+.thumbnail a img:hover{
+box-shadow:5px 5px 5px #000408;
+}
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+#font{
+      font-family: 'Abril Fatface', cursive;
+      color:red;
+      margin-top:50px;
+      /*padding-top:50px;
+      height:auto;*/
+    }
+    .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  #bt{
+    float:right;
+    margin-left:15px;
+    border-radius:10px;
+    border:none;
+  }
+  @media screen and (max-width:600px)
+      {
+        .frame{
+          width:100%;
+        }
+      }
+@media screen and (max-width:600px)
+      {
+        .amit{
+          text-align:center;
+        }
+    }
+    .Ac_Room_Text{
+      font-family: 'Abril Fatface', cursive;
+      color:black;
+      text-shadow:3px 3px 3px  blue;
+      text-align:center;
+    }
+    .Room_Text{
+       font-family: 'Abril Fatface', cursive;
+      color:#ffbb31;
+      text-shadow:3px 3px 3px #000000;
+      text-align:center;
+      size:15px;
+    }
